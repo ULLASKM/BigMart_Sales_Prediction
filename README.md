@@ -11,12 +11,19 @@ Please note that the data may have missing values as some stores might not repor
 #### Model Approach
 
 1) Data Pre-Processiing and Feature Engineering:
+
    a) Merging Same categories into common names
+   
    b) Imputing Missing Values with custom method¶
+   
    c) Imputing 0's in Item_Visibility with Mean values
+   
    d) New Feature generation
+   
    e) Converting established_date to Age(Years) of the outlet
+   
    f) Quantile based binning for Item_weight
+   
    g) Label Encoding categorical features
    
 2) Splitting up train and test Data
